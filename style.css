@@ -1,0 +1,44 @@
+h1{
+    text-align: center;
+    margin-top: 4em;
+}
+
+input[type=button]{
+    
+   display: inline-block;
+   width: 100%;      
+   height: 100%;     
+   color: #fff;
+   background-color: #aaabbb;
+   border: solid #ffffff 0.5px;
+   clear:right;
+
+
+}
+
+#display{
+    
+    display: inline-block;
+    width: 99.3%;      
+    height: 100%;     
+    color: rgb(255, 255, 255);
+    background-color: #43444d;
+    text-align: right;
+    border: solid #ffffff 0.5px;
+    clear:right;
+ 
+ 
+ }
+
+#kalkulator{
+
+    table-layout: fixed;
+    margin-left: auto;
+    margin-right: auto;
+    width: 50%;
+    height: 10em;
+}
+
+#button-equals{
+    background-color: rgba(209, 209, 25, 0.8);
+}
