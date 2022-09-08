@@ -1,0 +1,52 @@
+.container {
+    max-width: 400px;
+    margin: 2vh auto 0 auto;
+    border: 5px solid #323330;
+    font-family: "Source Sans Pro", sans-serif;
+}
+
+#display {
+    background-color: #323330;
+    text-align: right;
+    height: 70px;
+    line-height: 70px;
+    padding: 16px 8px;
+    font-size: 25px;
+    color: #fff;
+}
+
+.buttons {
+    background-color: #c0c0c0;
+    color: #323330;
+    border-color: #323330;
+    display: grid;
+    border-bottom: 1px solid #999;
+    grid-template-columns: 1fr 1fr 1fr 1fr;
+}
+
+
+
+.button {
+    border: 3px solid #FFF;
+    line-height: 100px;
+    text-align: center;
+    font-size: 25px;
+    cursor: pointer;
+}
+
+#equal {
+    background-color: rgb(185, 197, 14);
+    color: white;
+}
+
+.button:hover {
+    background-color: #323330;
+    color: white;
+    transition: 0.5s ease-in-out;
+}
+
+#equal:hover {
+    background-color: rgb(123, 131, 10);
+    color: white;
+    transition: 0.5s ease-in-out;
+}
