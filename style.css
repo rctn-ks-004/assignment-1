@@ -1,0 +1,58 @@
+* {
+    box-sizing: border-box;
+}
+
+body {
+    font-family: sans-serif;
+    font-weight: bold;
+}
+
+.grid-container {
+    display: grid;
+    grid-template-columns: 100px 100px 100px 100px;
+    margin: auto;
+    max-width: 400px;
+    background-color: lightgray;
+}
+
+.grid-item {
+    text-align: center;
+    padding: 30px;
+    margin: 2px;
+}
+
+.display {
+    grid-column: 1 / span 4;
+    text-align: right;
+    color: #999896;
+    background-color: #666666;
+    padding-bottom: 0;
+    padding-top: 0;
+}
+
+.display > .operation {
+    font-size: 20px;
+    margin: 20px 0 0 0;
+    height: 20px;
+}
+
+.display > #displayNumber {
+    font-size: 300%;
+    margin: 20px 0;
+}
+
+.button {
+    color: #666666;
+    background-color: #999896;
+    cursor: pointer;
+}
+
+.double-row {
+    grid-area: 5 / 4 / span 2 / 5;
+    padding-top: 100%;
+    background-color: yellow;
+}
+
+.double-column { 
+    grid-column: 1 / span 2;
+}
