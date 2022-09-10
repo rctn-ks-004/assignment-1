@@ -1,0 +1,78 @@
+html, body, span, input, button{
+    font-family: monospace;
+}
+body{
+    margin: auto;
+}
+.container {
+    margin: auto;
+    width: 400px;
+    background: #f2f2f2;
+    margin-top: 50px;
+    position: relative;
+}
+
+
+.input{
+    width: 100%;
+    height: 80px;
+    outline: none;
+    border: none;
+    background: #806868;
+    opacity: 80%;
+    font-size: 70px;
+    border-radius: 1px;
+    text-align: end;
+    overflow: hidden;
+}
+.container-button{
+    display: flex;
+    flex-wrap: wrap;
+}
+.button{
+    width: 25%;
+    height: 100px;
+    cursor: pointer;
+    border-radius: 0%;
+    font-size: 50px;
+    overflow: hidden;
+    border: 1px solid #806868;
+    box-shadow: #806868;
+}
+.button:hover{
+    background: #9196a0;
+    opacity: 80%;
+}
+.buttonsum{
+    width: 25%;
+    height: 200px;
+    cursor: pointer;
+    border-radius: 0%;
+    font-size: 50px;
+    overflow: hidden;
+    position: absolute;
+    right: 0;
+    bottom: 0;
+    background: yellow;
+    box-shadow: #806868;
+    border: 1px solid #806868;
+
+}
+.buttonsum:hover{
+    background: rgb(246, 246, 80);
+    opacity: 80%;
+}
+.buttonzero{
+    width: 50%;
+    height: 100px;
+    cursor: pointer;
+    border-radius: 0%;
+    font-size: 50px;
+    overflow: hidden;
+    box-shadow: #806868;
+    border: 1px solid #806868;
+}
+.buttonzero:hover{
+    background: #9196a0;
+    opacity: 80%;
+}
