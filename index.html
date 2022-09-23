@@ -1,0 +1,159 @@
+<!DOCTYPE html>
+<html>
+  <head>
+    <meta charset="utf-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Simple Kalkulator</title>
+    <script type="text/javascript" src="script.js"></script>
+  </head>
+  <body>
+    <div class="kalkulator">
+      <form name="form">
+        <input class="tampilan" name="tampilan" />
+        <table>
+          <tr>
+            <td>
+              <input class="buttoncalc" type="button" value="C" onclick="reset()" />
+            </td>
+            <td>
+              <input
+                class="buttoncalc"
+                type="button"
+                value="/"
+                onclick="inputan('/')"
+              />
+            </td>
+            <td>
+              <input
+                class="buttoncalc"
+                type="button"
+                value="x"
+                onclick="inputan('*')"
+              />
+            </td>
+            <td>
+              <input class="buttoncalc" type="button" value="<" onclick="hapus()" />
+            </td>
+          </tr>
+          <tr>
+            <td>
+              <input
+                class="buttoncalc"
+                type="button"
+                value="7"
+                onclick="inputan(7)"
+              />
+            </td>
+            <td>
+              <input
+                class="buttoncalc"
+                type="button"
+                value="8"
+                onclick="inputan(8)"
+              />
+            </td>
+            <td>
+              <input
+                class="buttoncalc"
+                type="button"
+                value="9"
+                onclick="inputan(9)"
+              />
+            </td>
+            <td>
+              <input
+                class="buttoncalc"
+                type="button"
+                value="-"
+                onclick="inputan('-')"
+              />
+            </td>
+          </tr>
+          <tr>
+            <td>
+              <input
+                class="buttoncalc"
+                type="button"
+                value="4"
+                onclick="inputan(4)"
+              />
+            </td>
+            <td>
+              <input
+                class="buttoncalc"
+                type="button"
+                value="5"
+                onclick="inputan(5)"
+              />
+            </td>
+            <td>
+              <input
+                class="buttoncalc"
+                type="button"
+                value="6"
+                onclick="inputan(6)"
+              />
+            </td>
+            <td>
+              <input
+                class="buttoncalc"
+                type="button"
+                value="+"
+                onclick="inputan('+')"
+              />
+            </td>
+          </tr>
+          <tr>
+            <td>
+              <input
+                class="buttoncalc"
+                type="button"
+                value="1"
+                onclick="inputan(1)"
+              />
+            </td>
+            <td>
+              <input
+                class="buttoncalc"
+                type="button"
+                value="2"
+                onclick="inputan(2)"
+              />
+            </td>
+            <td>
+              <input
+                class="buttoncalc"
+                type="button"
+                value="3"
+                onclick="inputan(3)"
+              />
+            </td>
+            <td>
+              <input
+                class="buttoncalc"
+                type="button"
+                value="."
+                onclick="inputan('.')"
+              />
+            </td>
+          </tr>
+          <tr>
+            <td colspan="3">
+              <input
+                class="buttoncalc"
+                style="width: 166px"
+                type="button"
+                value="0"
+                onclick="inputan(0)"
+              />
+            </td>
+            <td>
+              <input class="buttoncalc" type="button" value="=" onclick="hasil()" />
+            </td>
+          </tr>
+        </table>
+      </form>
+    </div>
+    <link rel="stylesheet" type="text/css" href="style.css" />
+  </body>
+</html>
