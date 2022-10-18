@@ -1,0 +1,48 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <link rel="stylesheet" href="style.css" />
+    <title>Assignment 1</title>
+    <script src="script.js"></script>
+  </head>
+  <body>
+    <div class="container">
+      <form>
+        <input id="display" class="display" />
+      </form>
+      <table>
+        <tr>
+          <td><input class="btn" type="button" value="C" onclick="reset()" /></td>
+          <td><input class="btn" type="button" value="/" onclick="inputan('/')" /></td>
+          <td><input class="btn" type="button" value="x" onclick="inputan('*')" /></td>
+          <td><input class="btn" type="button" value="Del" onclick="hapus()" /></td>
+        </tr>
+        <tr>
+          <td><input class="btn" type="button" value="7" onclick="inputan(7)" /></td>
+          <td><input class="btn" type="button" value="8" onclick="inputan(8)" /></td>
+          <td><input class="btn" type="button" value="9" onclick="inputan(9)" /></td>
+          <td><input class="btn" type="button" value="-" onclick="inputan('-')" /></td>
+        </tr>
+        <tr>
+          <td><input class="btn" type="button" value="4" onclick="inputan(4)" /></td>
+          <td><input class="btn" type="button" value="5" onclick="inputan(5)" /></td>
+          <td><input class="btn" type="button" value="6" onclick="inputan(6)" /></td>
+          <td><input class="btn" type="button" value="+" onclick="inputan('+')" /></td>
+        </tr>
+        <tr>
+          <td><input class="btn" type="button" value="1" onclick="inputan(1)" /></td>
+          <td><input class="btn" type="button" value="2" onclick="inputan(2)" /></td>
+          <td><input class="btn" type="button" value="3" onclick="inputan(3)" /></td>
+          <td><input class="btn" type="button" value="." onclick="inputan('.')" /></td>
+        </tr>
+        <tr>
+          <td colspan="3"><input class="btn" style="width: 166px" type="button" value="0" onclick="inputan(0)" /></td>
+          <td><input class="btn" type="button" value="=" onclick="hasil()" /></td>
+        </tr>
+      </table>
+    </div>
+  </body>
+</html>
